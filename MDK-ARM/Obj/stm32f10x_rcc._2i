@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x
+-I.\RTE\_LED
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+-IC:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="524" -DSTM32F10X_HD
+-o .\obj\stm32f10x_rcc.o --omf_browse .\obj\stm32f10x_rcc.crf --depend .\obj\stm32f10x_rcc.d --feedback ".\Obj\Project.fed" "..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c"
